@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault 
+ * Challenge 3
+ * Spawns the objects in the game
+ */
+
+
+
 public class SpawnManagerX : MonoBehaviour
 {
     public GameObject[] objectPrefabs;

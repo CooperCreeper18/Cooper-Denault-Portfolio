@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault 
+ * Challenge 3
+ * Allows objects to move to the left
+ */
+
 public class MoveLeftX : MonoBehaviour
 {
     public float speed;

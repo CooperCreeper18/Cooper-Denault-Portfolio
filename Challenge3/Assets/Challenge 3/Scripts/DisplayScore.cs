@@ -5,6 +5,13 @@ using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+/*
+ * Cooper Denault 
+ * Challenge 3
+ * Manages score and resets game
+ */
+
 public class DisplayScore : MonoBehaviour
 {
     public Text textbox;

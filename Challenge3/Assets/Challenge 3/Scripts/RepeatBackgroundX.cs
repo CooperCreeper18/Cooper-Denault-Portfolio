@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault 
+ * Challenge 3
+ * Resets background after moving
+ */
+
+
 public class RepeatBackgroundX : MonoBehaviour
 {
     private Vector3 startPos;

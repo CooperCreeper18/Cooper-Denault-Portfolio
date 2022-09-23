@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Cooper Denault 
+ * Challenge 3
+ * Allows player movement and sets collisions and limits
+ */
+
 public class PlayerControllerX : MonoBehaviour
 {
     public bool gameOver = false;
