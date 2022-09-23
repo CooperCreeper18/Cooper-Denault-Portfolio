@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault
+ * Prototype 3
+ * Manages the spawning of the obstacles
+ */
+
+
 public class SpawManager : MonoBehaviour
 {
 

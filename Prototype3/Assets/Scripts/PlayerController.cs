@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Prototype 3
+ * Manages all the things coordinating with the player
+ */
+
+
+
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
@@ -21,7 +29,6 @@ public class PlayerController : MonoBehaviour
     public AudioClip crashSound;
 
     private AudioSource playerAudio;
-
 
 
     // Start is called before the first frame update

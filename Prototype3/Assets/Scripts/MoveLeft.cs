@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Prototype 3
+ * MoveLeft is used for the scene to be moving
+ */
+
+
+
 public class MoveLeft : MonoBehaviour
 {
     public float speed = 30f;

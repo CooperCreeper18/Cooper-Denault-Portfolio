@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Prototype 3
+ * Adds score when jumping over obstacle
+ */
+
+
 public class TriggerZoneAddScore : MonoBehaviour
 {
 

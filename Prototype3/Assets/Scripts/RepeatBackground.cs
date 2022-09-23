@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Prototype 3
+ * Makes it so the background repeats
+ */
 public class RepeatBackground : MonoBehaviour
 {
     private Vector3 startPosition;
