@@ -8,6 +8,11 @@ public class MouseLook : MonoBehaviour
     public GameObject player;
     private float verticalLookRotation = 0f;
 
+    private void OnApplicationFocus(bool focus)
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     void Update()
     {
         //Get mouse input and assign to two floats
