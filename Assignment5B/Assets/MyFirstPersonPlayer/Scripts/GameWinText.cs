@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Assignment 5B
+ * Sets Game Over Screen to true and allows restart
+ */
+
+
 public class GameWinText : MonoBehaviour
 {
     public GameObject gameWinText;

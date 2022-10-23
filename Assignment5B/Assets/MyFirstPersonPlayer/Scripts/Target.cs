@@ -3,6 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Assignment 5B
+ * Makes objects have health and can take damage
+ */
+
 public class Target : MonoBehaviour
 {
     public float health = 50f;

@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault
+ * Assignment 5B
+ * Allows the player to shoot their weapon with raycasts
+ */
+
 public class ShootWithRaycasts : MonoBehaviour
 {
     public float damage = 10f;

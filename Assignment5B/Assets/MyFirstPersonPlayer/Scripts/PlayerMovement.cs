@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault
+ * Assignment 5B
+ * Allows player to move and jump with gravity
+ */
+
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;

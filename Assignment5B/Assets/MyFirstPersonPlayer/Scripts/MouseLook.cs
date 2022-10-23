@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Assignment 5B
+ * Allows player to look around
+ */
+
+
 public class MouseLook : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
