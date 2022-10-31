@@ -94,8 +94,20 @@ public class GameManager : Singleton<GameManager>
         if (Input.GetKeyDown(KeyCode.P))
         {
             Pause();
+            unLockCursor();
         }
     }
+
+    public void lockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void unLockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
 
 }
 
