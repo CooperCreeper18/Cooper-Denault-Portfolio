@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+/*
+ * Cooper Denault
+ * Console Output
+ * Assignment 1
+ * Makes lists for type hero
+ */
+
 public class ConsoleOutput : MonoBehaviour
 {
     public List<Hero> heroList = new List<Hero>();

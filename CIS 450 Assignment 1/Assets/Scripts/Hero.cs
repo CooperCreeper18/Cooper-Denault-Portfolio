@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault
+ * Console Output
+ * Assignment 1
+ * Makes super class type hero
+ */
+
 public abstract class Hero
 {
     private int age;

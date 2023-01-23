@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault
+ * Console Output
+ * Assignment 1
+ * Makes ninja
+ */
+
 public class Ninja : Hero, Stealth
 {
     private int honor = 100;
