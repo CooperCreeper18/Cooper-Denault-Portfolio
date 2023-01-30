@@ -11,6 +11,7 @@ using UnityEngine;
  */
 
 
+
 public class UIManager : MonoBehaviour
 {
     public GameObject healthText;
@@ -43,10 +44,12 @@ public class UIManager : MonoBehaviour
             armourText.SetActive(true);
         }
 
+        
         if (keyItem == null && Input.GetKeyDown(KeyCode.Alpha3))
         {
             keyText.SetActive(true);
         }
+        
 
         if (specialItem == null && Input.GetKeyDown(KeyCode.Alpha4))
         {

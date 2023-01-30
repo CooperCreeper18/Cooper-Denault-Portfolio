@@ -13,6 +13,9 @@ using UnityEngine;
 
 public class SpecialItem : Items, IUsingItem
 {
+
+
+
     public override void Use()
     {
         Destroy(gameObject);

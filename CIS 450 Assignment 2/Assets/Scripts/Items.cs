@@ -13,13 +13,13 @@ using UnityEngine;
 
 public abstract class Items : MonoBehaviour
 {
+
     public abstract void Use();
 
-    IUsingItem usingItem;
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
