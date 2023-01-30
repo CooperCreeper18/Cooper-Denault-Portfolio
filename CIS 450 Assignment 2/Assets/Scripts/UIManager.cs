@@ -2,6 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * (Cooper Denault)
+ * (UI Manager)
+ * (Assignment 2)
+ * (Allows the different feedbacks to appear)
+ */
+
+
 public class UIManager : MonoBehaviour
 {
     public GameObject healthText;
