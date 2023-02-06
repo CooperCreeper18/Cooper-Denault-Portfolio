@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+/*
+ * Cooper Denault
+ * ObjectiveStats
+ * Assignment 3
+ * allows printing of the data
+ */
 public class ObjectivesVisited : MonoBehaviour, Observer
 {
     public ObjectiveStats objectiveStats;

@@ -4,6 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 //using static UnityEditor.FilePathAttribute;
 
+/*
+ * Cooper Denault
+ * ObjectiveStats
+ * Assignment 3
+ * Makes list of observers and modifies the data in them
+ */
+
+
 public class ObjectiveStats : ScriptableObject, Subject
 {
     private List<Observer> observers = new List<Observer>();

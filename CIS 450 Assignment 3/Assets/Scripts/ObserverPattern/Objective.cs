@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Cooper Denault
+ * ObjectiveStats
+ * Assignment 3
+ * sets so player can change the data through the trigger
+ */
 public class Objective : MonoBehaviour
 {
 
