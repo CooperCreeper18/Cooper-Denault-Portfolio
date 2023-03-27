@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 /*
  * Cooper Denault
- * SkelletonText
+ * SkeletonText
  * Assignemnt 8 Easy
  * class for the text object for skelleton
  */
