@@ -3,6 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+		 * Cooper Denault
+		 * Backpack
+		 * (Assignment 12)
+		 * Makes the backback and the ability to add or remove items
+*/
+
+
 public class Backpack : IInventory, IEnumerable<IInventory>
 {
     private List<IInventory> _subordinates = new List<IInventory>();
@@ -24,9 +32,9 @@ public class Backpack : IInventory, IEnumerable<IInventory>
         return _subordinates[index];
     }
 
-    public void PrintName()
+    public string PrintName()
     {
-        Console.WriteLine(Name);
+        return Name;
     }
     public IEnumerator<IInventory> GetEnumerator()
     {
